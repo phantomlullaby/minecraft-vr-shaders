@@ -1,0 +1,50 @@
+cmd gamemode spectator @p
+cmd gamerule advance_time false
+cmd weather clear
+cmd time set 2000
+cmd tp @p -240 120 336 90 15
+wait 200
+prof reset
+wait 160
+prof report far
+cmd tp @p 0 84 0 -45 15
+wait 160
+prof reset
+wait 160
+prof report jungle_floor
+cmd tp @p 64 72 96 45 30
+wait 160
+prof reset
+wait 160
+prof report river
+cmd tp @p -240 95 336 90 25
+wait 160
+prof reset
+wait 160
+prof report village
+cmd time set 18000
+cmd tp @p -240 75 336 90 20
+wait 160
+prof reset
+wait 160
+prof report night
+cmd time set 6000
+cmd tp @p 64 60 96 45 10
+wait 160
+prof reset
+wait 160
+prof report underwater
+cmd tp @p 0 100 0 0 10
+cmd weather rain
+wait 160
+prof reset
+wait 160
+prof report rain
+cmd weather clear
+cmd execute in minecraft:the_nether run tp @p 0 80 0 45 20
+wait 300
+prof reset
+wait 160
+prof report nether
+cmd execute in minecraft:overworld run tp @p 0 100 0
+wait 100

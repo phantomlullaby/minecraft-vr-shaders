@@ -1,0 +1,26 @@
+{
+  "enable_temporal_coherence": true,
+  "max_geometry_memory": 2048,
+  "automatic_memory": true,
+  "region_keep_distance": 32,
+  "render_fog": true,
+  "use_sodium_vertex_format": false,
+  "cull_degenerate_triangles": true,
+  "use_nv_fragment_shader_barycentric": true,
+  "iris_shader_support": true,
+  "vr_foveated_shading": true,
+  "vr_stream_width": 1152,
+  "vr_stream_height": 1216,
+  "vr_foveation_sample_factor": 1.5,
+  "vr_full_rate_programs": ["composite3", "composite4"],
+  "vr_full_rate_pipelines": [
+    "minecraft:pipeline/eyes",
+    "minecraft:pipeline/oit_depth_bounds_eyes",
+    "minecraft:pipeline/oit_transmittance_eyes",
+    "minecraft:pipeline/oit_accumulate_eyes",
+    "minecraft:pipeline/entity_translucent_emissive"
+  ],
+  "gpu_submit_depth": 0,
+  "translucency_sorting_level": "SODIUM",
+  "statistics_level": "NONE"
+}

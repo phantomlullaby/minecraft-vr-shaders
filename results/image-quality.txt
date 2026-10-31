@@ -1,0 +1,26 @@
+Headset display captures, foveated shading on vs off, 4 captures each (bench/analysis/fidelity_headset.py)
+far      all              noise  2.52  vrs-vs-off  2.45  excess -0.07
+far      center r<0.35    noise  3.24  vrs-vs-off  3.05  excess -0.19
+far      periphery r>0.6  noise  2.01  vrs-vs-off  2.23  excess +0.22
+village  all              noise  2.50  vrs-vs-off  2.63  excess +0.13
+village  center r<0.35    noise  2.52  vrs-vs-off  2.58  excess +0.07
+village  periphery r>0.6  noise  2.45  vrs-vs-off  2.61  excess +0.17
+
+NullVR Quest 3 captures in the simulated WiVRn stream (bench/analysis/fidelity_sim.py, stream 1152x1216, centers y -0.046, x +-0.271)
+scene      eye | noise(avg2 off vs off) | k=1.5 excess | k=2 excess | AV1 error
+far        L   |   1.44 |  +0.54 |  +0.30 |   nan
+far        R   |   1.40 |  +0.47 |  +0.23 |  4.39
+floor      L   |   7.32 |  -0.05 |  +0.61 |   nan
+floor      R   |   6.94 |  -0.44 |  +0.54 |  4.91
+river      L   |   6.63 |  -1.11 |  +0.28 |   nan
+river      R   |   7.20 |  -1.42 |  +0.09 |  4.63
+village    L   |   2.07 |  +0.76 |  +0.62 |   nan
+village    R   |   1.91 |  +0.69 |  +0.52 |  4.87
+night      L   |   0.47 |  +0.30 |  +0.23 |   nan
+night      R   |   0.46 |  +0.22 |  +0.16 |  2.62
+underwater L   |   9.75 |  -2.87 |  -1.40 |   nan
+underwater R   |  10.12 |  -2.88 |  -1.39 |  3.11
+rain       L   |   2.54 |  -0.30 |  -0.14 |   nan
+rain       R   |   2.71 |  -0.34 |  -0.20 |  3.27
+nether     L   |   0.16 |  +0.22 |  +0.08 |   nan
+nether     R   |   0.28 |  +0.22 |  +0.07 |  2.40

@@ -1,0 +1,13 @@
+# Still-headset flash check at the spot where the flashes showed up, at night, 90 s.
+# Run with flash-headset.sh. Restores time progression at the end.
+cmd gamemode creative @p
+cmd gamerule advance_time false
+cmd time set 18000
+cmd weather clear
+cmd tp @p -103.4 82.0 -19.2 -136.3 -11.1
+wait 300
+flash on static
+wait 1800
+flash report static
+cmd gamerule advance_time true
+wait 20
